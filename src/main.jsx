@@ -6,6 +6,7 @@ import About from './About'
 import Contacts from './Contacts'
 import Users from './Users'
 import Footer from './Footer';
+import EaSportsGame from './EaSportsGame';
 
 createRoot(document.getElementById('root')).render(
   
@@ -17,7 +18,7 @@ createRoot(document.getElementById('root')).render(
       <Route path="/about" element={<About></About>}></Route>
       <Route path="/contacts" element={<Contacts></Contacts>}></Route>
       <Route path="/users" element={<Users></Users>}></Route>
-      
+      <Route path="/game" element={<EaSportsGame></EaSportsGame>}></Route>
        </Route>
        <Route path='/footer' element={<Footer></Footer>}></Route>
     
